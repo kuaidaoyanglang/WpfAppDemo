@@ -1,0 +1,14 @@
+﻿<Window x:Class="WpfAppControlTemplate.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAppControlTemplate"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="250" Width="450" Style="{DynamicResource WindowStyle}">
+    <StackPanel Margin="20">
+        <TextBox Name="txtBox1" FontSize="30" Margin="10" Style="{DynamicResource RoundCornerTextBoxStyle}"></TextBox>
+        <TextBox Name="txtBox2" FontSize="30" Margin="10" Style="{DynamicResource RoundCornerTextBoxStyle}"></TextBox>
+        <Button Name="btn" FontSize="30" Content="一个按钮" Margin="10" Style="{DynamicResource ButtonStyle}"></Button>
+    </StackPanel>
+</Window>
